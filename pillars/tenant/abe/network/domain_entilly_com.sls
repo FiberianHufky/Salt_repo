@@ -1,0 +1,1 @@
+domain: 'other_domain.com'

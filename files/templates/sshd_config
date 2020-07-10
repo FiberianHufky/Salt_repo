@@ -1,0 +1,7 @@
+{% for key in pillar.keys() %}
+{% if "sshd" in key %}
+{% for entry in pillar.get(key) %}
+{{ entry[0] }} {{ entry[1] }}
+{% endfor %}
+{% endif %}
+{% endfor %}

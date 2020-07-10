@@ -1,0 +1,3 @@
+shells:
+  - 'zsh'
+  - 'bash'
